@@ -29,7 +29,7 @@ TTA (Test Time Augmentation) 这个方法非常简单、有意思，对于提升
 <!-- ![](../imgs/2021-11-15-15-45-43.png) -->
 
 <div style="text-align:center; width:60%">
-    <img src="![](../imgs/2021-11-15-15-45-43.png)" style="width:60%">
+    <img src="../imgs/2021-11-15-15-45-43.png" style="width:60%">
 </div>
 
 上半部分是一个产生loss predictor label的过程，利用已有的增广方式和预训练好的分类模型构造label，下半部分是学习预测loss，使得上下两个部分的loss之间的相关性更好。
